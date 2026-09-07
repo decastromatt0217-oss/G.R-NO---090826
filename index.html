@@ -1,0 +1,404 @@
+# G.R-NO---090826
+Here is a complete, single-file HTML page designed with the aesthetic of the Supreme Court E-Library (classic Philippine legal theme with deep blue/maroon headers, serif fonts, official document layout, and formal styling).
+
+Save the code below as `index.html` and upload it to any free static site hosting platform such as **GitHub Pages**, **Vercel**, or **Netlify** to create a shareable link.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.R. No. 09082026 | Supreme Court E-Library</title>
+    <style>
+        :root {
+            --sc-blue: #002b49;
+            --sc-gold: #c59b27;
+            --sc-bg: #f4f6f9;
+            --paper-bg: #ffffff;
+            --text-color: #222222;
+            --border-color: #d1d5db;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: var(--sc-bg);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* E-Library Header */
+        header {
+            background-color: var(--sc-blue);
+            color: #ffffff;
+            border-bottom: 4px solid var(--sc-gold);
+            padding: 15px 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        header .sub-header {
+            font-family: Arial, sans-serif;
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            color: var(--sc-gold);
+            text-transform: uppercase;
+        }
+
+        header h1 {
+            font-size: 1.6rem;
+            margin: 5px 0 0 0;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+
+        /* Top Nav Bar */
+        .nav-bar {
+            background-color: #001f35;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            font-size: 0.8rem;
+            padding: 8px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            background-color: var(--paper-bg);
+            padding: 50px 60px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            border: 1px solid var(--border-color);
+        }
+
+        /* Document Header */
+        .doc-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .doc-header p {
+            margin: 2px 0;
+            font-size: 0.95rem;
+        }
+
+        .title-bar {
+            border-top: 2px solid var(--text-color);
+            border-bottom: 2px solid var(--text-color);
+            padding: 8px 0;
+            margin: 20px 0;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        /* Caption Table */
+        .caption-table {
+            width: 100%;
+            margin-bottom: 25px;
+            font-size: 1rem;
+        }
+
+        .caption-table td {
+            vertical-align: top;
+            padding: 2px 5px;
+        }
+
+        .divider {
+            text-align: center;
+            letter-spacing: 5px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        /* Content Styling */
+        .justice-name {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .section-heading {
+            font-weight: bold;
+            font-style: italic;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.05rem;
+        }
+
+        p {
+            text-align: justify;
+            text-indent: 2em;
+            margin-bottom: 15px;
+            font-size: 1.05rem;
+        }
+
+        ol {
+            margin-left: 2em;
+            margin-bottom: 20px;
+        }
+
+        ol li {
+            margin-bottom: 8px;
+            text-align: justify;
+        }
+
+        /* Signatures Section */
+        .signatures {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .sig-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .sig-box {
+            text-align: center;
+        }
+
+        .sig-name {
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            display: inline-block;
+            padding-bottom: 2px;
+            margin-bottom: 2px;
+        }
+
+        .sig-title {
+            font-size: 0.85rem;
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 0.75rem;
+            color: #666;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px 20px;
+                margin: 10px;
+            }
+            .sig-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="sub-header">Supreme Court E-Library</div>
+        <h1>PHILIPPINE JURISPRUDENCE & DOCUMENT DATABASE</h1>
+    </header>
+
+    <div class="nav-bar">
+        <span>G.R. No. 09082026 | De Castro v. Cañet</span>
+        <span>1st Month Edition</span>
+    </div>
+
+    <div class="container">
+        
+        <div class="doc-header">
+            <p><strong>RELATIONSHIP REPUBLIC</strong></p>
+            <p><strong>SUPREME COURT</strong></p>
+            <p>MANILA</p>
+            <p>SECOND DIVISION</p>
+            
+            <div class="title-bar">
+                G.R. No. 09082026
+            </div>
+        </div>
+
+        <table class="caption-table">
+            <tr>
+                <td style="width: 45%;">
+                    <strong>MATTHEW DE CASTRO</strong>,<br>
+                    <span style="margin-left: 30px;">Petitioner,</span>
+                </td>
+                <td style="width: 10%; text-align: center;"></td>
+                <td style="width: 45%;"></td>
+            </tr>
+            <tr>
+                <td><br>-versus-</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <br><strong>ALSLEN CAÑET</strong>,<br>
+                    <span style="margin-left: 30px;">Respondent.</span>
+                </td>
+                <td></td>
+                <td style="vertical-align: bottom; text-align: right;">
+                    <strong>DECISION</strong>
+                </td>
+            </tr>
+        </table>
+
+        <div class="divider">x - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - x</div>
+
+        <div class="justice-name">DE CASTRO, J.:</div>
+
+        <div class="section-heading">The Facts</div>
+
+        <p>This is a case concerning a relationship that neither party originally anticipated, but which, upon closer examination, appears to have been quietly making its way toward them for several years.</p>
+
+        <p>The Court is called upon to determine whether two people who began as friends, spent years knowing one another without expecting anything more, and eventually found their way toward each other may properly be declared to have reached their first month together. The Court answers in the affirmative.</p>
+
+        <p>The parties first became acquainted during Senior High School. At the time, neither party could have reasonably anticipated that the other would eventually become someone of such significance in their life. They were, at first, simply friends.</p>
+
+        <p>Years passed. The parties proceeded through college, eventually reaching their fourth year, while continuing to exist within the same extended circle of friends and shared experiences. Despite having known each other for years, they did not immediately find themselves in a romantic relationship.</p>
+
+        <p>The Court finds this circumstance noteworthy. For years, the parties had apparently been walking parallel paths without realizing that those paths would eventually converge.</p>
+
+        <p>It was only more recently, particularly through immersion and other shared experiences, that the parties began to grow significantly closer. What began as ordinary friendship gradually became something more.</p>
+
+        <p>The parties, together with their friends, began undertaking late-night trips to Rizal, where they would spend hours simply looking over the city lights. On certain occasions, these evenings extended well into the early morning—sometimes until approximately 5:00 a.m.</p>
+
+        <p>The parties would ride together late at night, travel without any particularly urgent destination, talk about various matters, laugh, and simply enjoy being in each other's company.</p>
+
+        <p>No formal declaration had yet been made. No relationship had yet been established. Yet, in retrospect, the Court finds that something was already taking shape. The parties had unknowingly begun creating the memories that would later become part of their relationship.</p>
+
+        <p>Thereafter, the friendship continued to develop until the parties eventually found themselves confronting the possibility that what existed between them was no longer merely friendship.</p>
+
+        <p>The Petitioner subsequently sought permission to court the Respondent. In an apparent departure from conventional romantic practice, the parties formalized the beginning of their courtship through a Courting Agreement, establishing terms and conditions for the Petitioner's attempt to win the Respondent's affection.</p>
+
+        <p>The Respondent, after due consideration, eventually rendered her own Supreme Court-style decision, in which she ruled that she was willing to accept the Petitioner as her boyfriend. The decision became final and executory.</p>
+
+        <p>Thus began the relationship presently before this Court.</p>
+
+        <div class="section-heading">The Issue</div>
+
+        <p>The principal issue before the Court is:</p>
+        <p style="margin-left: 2em; font-style: italic;">WHETHER the parties, having begun as friends, spent years unknowingly moving toward one another, and eventually entered into a romantic relationship after years of shared experiences, have successfully completed their first month together and established sufficient grounds for the continuation of their increasingly ridiculous romantic jurisprudence.</p>
+
+        <p>The Court answers: <strong>YES.</strong></p>
+
+        <div class="section-heading">The Ruling</div>
+
+        <p>The Court finds that the relationship between the parties cannot properly be understood merely by examining the date on which they officially became a couple.</p>
+
+        <p>The evidence demonstrates that the story began much earlier.</p>
+
+        <p>The parties knew each other as early as Senior High School. For years, they remained friends without either apparently knowing that they would eventually become romantically involved.</p>
+
+        <p>It is therefore tempting to describe their relationship as a coincidence. The Court, however, is inclined to a different conclusion.</p>
+
+        <p>There is something peculiar about two people knowing each other for years, continuing along separate paths, and then, after circumstances bring them closer together, eventually finding their way toward one another.</p>
+
+        <p>The Court therefore recognizes, for purposes of this Decision, the existence of what the parties may reasonably refer to as an “invisible string.”</p>
+
+        <p>An invisible string cannot be seen, measured, or entered into evidence in the conventional sense. Nevertheless, the Court finds that its effects are observable.</p>
+
+        <p>It is present in the years of knowing one another. It is present in the unexpected closeness developed during immersion. It is present in the late-night rides. It is present in the countless hours spent with friends in Rizal, staring at city lights until the early morning.</p>
+
+        <p>It is present in the conversations that gradually became more meaningful. And perhaps most significantly, it is present in the fact that two people who never expected to end up together somehow did.</p>
+
+        <p>The Court further takes judicial notice of the Respondent's increasingly established role in the Petitioner's ordinary life. This includes her habit of providing treats to the Petitioner's dogs behind his back, an act which the Court recognizes as highly suspicious but overwhelmingly indicative of affection.</p>
+
+        <p>The Court finds that secretly spoiling the Petitioner's dogs constitutes circumstantial evidence of an intention to establish herself not only in the Petitioner's heart, but also within the good graces of his canine companions. The Court considers this strategically sound.</p>
+
+        <p>The evidence likewise establishes that the Petitioner looks forward to speaking with the Respondent every night, wishes to tell her about the ordinary events of his day, and genuinely desires her continued presence in his life.</p>
+
+        <p>More importantly, the Court finds significant the fact that the Petitioner feels free to be himself in the Respondent's presence.</p>
+
+        <p>The Respondent has somehow managed to bring out the Petitioner's “old kid silly self”—a development which may adversely affect the Petitioner's dignity, but which the Court finds substantially beneficial to his happiness.</p>
+
+        <p>The Court therefore finds that the relationship is not sustained merely by grand gestures or extraordinary occasions. It is sustained by ordinary things: the late-night rides, the random conversations, the hours spent together, the city lights of Rizal, the stories shared after long days, the treats secretly given to dogs, the jokes that would probably make little sense to anyone else, and the simple desire to tell one another about what happened that day.</p>
+
+        <p>These things, though individually insignificant, collectively constitute the evidence upon which the Court bases its ruling.</p>
+
+        <div class="section-heading">On the Parties' Future</div>
+
+        <p>The Court recognizes that the present relationship is still young. There remain countless experiences yet to be had, places yet to be visited, late-night rides yet to be taken, conversations yet to be had, and memories yet to be created.</p>
+
+        <p>The parties are therefore encouraged to continue their established practices of:</p>
+
+        <ol>
+            <li>Taking unnecessary late-night rides;</li>
+            <li>Returning to places where they have spent meaningful time together;</li>
+            <li>Looking at city lights until an unreasonable hour;</li>
+            <li>Allowing their friends to witness increasingly questionable romantic behavior;</li>
+            <li>Giving treats to each other's pets, whether authorized or otherwise;</li>
+            <li>Making stupid jokes;</li>
+            <li>Telling each other about the seemingly insignificant details of their days;</li>
+            <li>Continuing to bring out the best and occasionally the most childish parts of one another; and</li>
+            <li>Choosing one another, not because either party is afraid of losing the other, but because they genuinely want to remain together.</li>
+        </ol>
+
+        <p>The Court further recognizes that the parties' relationship began long before either party knew what it would become.</p>
+
+        <p>Perhaps they were simply friends. Perhaps they were simply two people who happened to know each other. Perhaps the invisible string was already there all along.</p>
+
+        <p>Whatever the answer may be, the Court finds that the parties have now arrived at the same place.</p>
+
+        <p>Together.</p>
+
+        <div class="section-heading">Disposition</div>
+
+        <p><strong>ACCORDINGLY</strong>, the Court hereby <strong>RECOGNIZES</strong> the successful completion of ONE (1) MONTH of the relationship between the parties.</p>
+
+        <p>The Court declares that the parties' journey from Senior High School acquaintances, to friends, to late-night companions, to unexpected confidants, and finally to romantic partners is hereby recognized as a legitimate and sufficiently compelling basis for continued happiness.</p>
+
+        <p>The Petitioner is hereby <strong>ORDERED</strong> to continue loving, annoying, supporting, teasing, comforting, and making unnecessarily stupid memories with the Respondent.</p>
+
+        <p>The Respondent is likewise <strong>ORDERED</strong> to continue loving the Petitioner, tolerating his nonsense, and secretly spoiling his dogs.</p>
+
+        <p>The parties are further <strong>DIRECTED</strong> to continue following wherever their invisible string may lead them.</p>
+
+        <p>And should the parties someday look back upon this Decision years from now, they are reminded that there was once a time when neither of them knew that the person standing beside them would eventually become the person they would choose to keep.</p>
+
+        <p>The Court finds that this is, in itself, worth celebrating.</p>
+
+        <p><strong>SO ORDERED.</strong></p>
+
+        <p style="text-indent: 0; margin-top: 25px;">September 8, 2026.</p>
+
+        <div class="signatures">
+            <p style="text-indent: 0; text-align: center; font-weight: bold; margin-bottom: 25px;">WE CONCUR:</p>
+            
+            <div class="sig-grid">
+                <div class="sig-box">
+                    <div class="sig-name">MATTHEW DE CASTRO</div>
+                    <div class="sig-title">Associate Justice<br>and Extremely Biased Boyfriend</div>
+                </div>
+                <div class="sig-box">
+                    <div class="sig-name">ALSLEN CAÑET</div>
+                    <div class="sig-title">Chief Justice of the Relationship</div>
+                </div>
+                <div class="sig-box" style="margin-top: 20px;">
+                    <div class="sig-name">THE PETITIONER'S SILLY SELF</div>
+                    <div class="sig-title">Associate Justice</div>
+                </div>
+                <div class="sig-box" style="margin-top: 20px;">
+                    <div class="sig-name">ISLA & HAILEY</div>
+                    <div class="sig-title">Barkingly Concurring</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        Supreme Court E-Library &copy; 2026 | Document Repository System
+    </footer>
+
+</body>
+</html>
+
+```
